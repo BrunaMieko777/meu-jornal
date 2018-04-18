@@ -11,5 +11,17 @@ noticias: string[]= [
     "Noticia 3", 
     "Noticia 4"];
 
+    mostrarNoticia: boolean = true;
 
-}
+
+    public esconderNoticia(){
+        this.mostrarNoticia = false;
+    }
+
+    public mostrarNoticias(){
+        this.mostrarNoticia = true;
+    }
+
+    
+    }
+
